@@ -44,6 +44,12 @@ body
 	width: 50%;
 	text-align: center;
 }
+#backHome
+{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
 #zegar
 {
 	float: left;
@@ -284,7 +290,7 @@ a.socialLink
 	margin-top: 5px;
 	font-size: 14px;
 	float: left;
-	width: 365px;
+	width: 364px;
 	height: 137px;
 	background-color: #666666;
 	padding-left: 10px;
@@ -294,7 +300,7 @@ a.socialLink
 	margin-top: 5px;
 	font-size: 14px;
 	float: left;
-	width: 365px;
+	width: 364px;
 	height: 137px;
 	background-color: #666666;
 	padding-left: 10px;
@@ -304,14 +310,14 @@ a.socialLink
 	float: left;
 	width: 105px;
 	height: 142px;
-	background-color: #d95333;
 	overflow: hidden;
+	border-left: 1px inset #ffffff;
 }
 .androidLogo
 {
 	float: left;
 	width: 105px;
 	height: 142px;
-	background-color: #93c748;
 	overflow: hidden;
+	border-left: 1px inset #ffffff;
 }
