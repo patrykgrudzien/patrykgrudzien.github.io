@@ -50,7 +50,7 @@ body
 	width: 50%;
 	text-align: left;
 }
-.backHomeLink
+a.backHomeLink
 {
 	color: #ffffff;
 	text-decoration: none;
