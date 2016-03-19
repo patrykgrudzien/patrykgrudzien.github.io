@@ -46,9 +46,14 @@ body
 }
 #backHome
 {
-	width: 50%;
 	float: left;
+	width: 50%;
 	text-align: left;
+}
+.backHomeLink
+{
+	color: #ffffff;
+	text-decoration: none;
 }
 #zegar
 {
