@@ -55,6 +55,21 @@ body
 	color: #ffffff;
 	text-decoration: none;
 }
+.backHomeLink:hover
+{
+	cursor: pointer;
+	color: #707070;
+}
+a.backHomeLink:link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a.backHomeLink:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
 #zegar
 {
 	float: left;
