@@ -55,10 +55,10 @@ body
 	color: #ffffff;
 	text-decoration: none;
 }
-.backHomeLink:hover
+a.backHomeLink:hover
 {
 	cursor: pointer;
-	color: #707070;
+	color: #cccccc;
 }
 a.backHomeLink:link
 {
