@@ -58,6 +58,7 @@ body
 	float: left;
 	width: 50%;
 	text-align: left;
+	-webkit-animation-duration: 0.75s;
 }
 .backHomeLink
 {
