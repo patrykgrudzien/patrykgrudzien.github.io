@@ -4,6 +4,8 @@ body
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
+	overflow-x: hidden;
+	overflow-y: hidden; 
 }
 #container
 {
@@ -20,12 +22,19 @@ body
 	margin-left: auto;
 	overflow: auto;
 	overflow-x: hidden;
+	animation-name: slideInUp;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 1s;
+	transform: translateZ(0);
+	-webkit-animation-iteration-count: 1;
 }
 .rectangle
 {
 	width: 960px;
 	margin: 10px;
 	text-align: center;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1.25s;
 }
 .square
 {
@@ -76,11 +85,70 @@ a.backHomeLink:hover
 	height: 142px;
 	background-color: #3095d3;
 	text-align: center;
+	animation-name: fadeInDown;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	transform: translateZ(0);
+	-webkit-animation-iteration-count: 1;
 }
 .tile1:hover
 {
 	background-color: #2084c2;
 	cursor: pointer;
+	animation-name: fadeInDown, pulse;
+}
+.tile1Index
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+	animation-name: fadeInDown;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 0.25s;
+	transform: translateZ(0);
+}
+.tile1Index:hover
+{
+	background-color: #2084c2;
+	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: fadeInDown, pulse;
+}
+.tile1KimJestem
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+}
+.tile1KimJestem:hover
+{
+	background-color: #2084c2;
+	cursor: pointer;
+}
+.tile1MojPrzykladowyKod
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+}
+.tile1MojPrzykladowyKod:hover
+{
+	background-color: #2084c2;
+	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: pulse;
 }
 a.tileLink
 {
@@ -98,11 +166,36 @@ a.tileLink
 	height: 142px;
 	background-color: #666666;
 	text-align: center;
+	animation-name: fadeInDown;
+	-webkit-transform: translateY(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 0.5s;
+	transform: translateZ(0);
 }
 .tile2:hover
 {
 	background-color: #555555;
 	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: fadeInDown, pulse;
+}
+.tile2KimJestem
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	text-align: center;
+}
+.tile2KimJestem:hover
+{
+	background-color: #555555;
+	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: pulse;
 }
 a.tileLinkhtml5
 {
@@ -117,13 +210,67 @@ a.tileLinkhtml5
 	height: 142px;
 	background-color: #93c748;
 	text-align: center;
+	animation-name: fadeInDown;
+	-webkit-transform: translateY(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 0.75s;
+	transform: translateZ(0);
 }
 .tile3:hover
 {
 	background-color: #82b637;
 	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: fadeInDown, pulse;
+}
+.tile3KimJestem
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #93c748;
+	text-align: center;
+}
+.tile3KimJestem:hover
+{
+	background-color: #82b637;
+	cursor: pointer;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: pulse;
+}
+.tile3Kontakt
+{
+	float: left;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #93c748;
+	text-align: center;
+}
+.tile3Kontakt:hover
+{
+	background-color: #82b637;
+	cursor: pointer;
 }
 .tile4
+{
+	margin: 10px;
+	width: 444px;
+	height: 106px;
+	background-color: #d95333;
+	text-align: center;
+	font-size: 21.5px;
+	padding: 18px;
+	animation-name: fadeInLeft;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1.0s;
+	transform: translateZ(0);
+}
+.tile4NoAnimation
 {
 	margin: 10px;
 	width: 444px;
@@ -151,6 +298,9 @@ a.tileLinkhtml5
 	text-align: center;
 	overflow: auto;
 	padding-top: 30px;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .tile7
 {
@@ -164,6 +314,9 @@ a.tileLinkhtml5
 	text-align: center;
 	overflow: auto;
 	padding-top: 30px;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 a.mail:link
 {
@@ -204,6 +357,9 @@ a.mailBottom:hover
 	overflow: auto;
 	padding: 10px;
 	font-size: 19px;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 #photoContent
 {
@@ -215,6 +371,11 @@ a.mailBottom:hover
 	background-color: #303030;
 	text-align: center;
 	overflow: hidden;
+	animation-name: fadeInDown;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0.75s;
+	transform: translateZ(0);
 }
 .github
 {
@@ -223,11 +384,35 @@ a.mailBottom:hover
 	height: 142px;
 	background-color: #d94348;
 	float: left;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1s;
+	transform: translateZ(0);
 }
 .github:hover
 {
 	background-color: #c83237;
 	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: fadeInRight, bounce;
+}
+.githubNoAnimation
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+.githubNoAnimation:hover
+{
+	background-color: #c83237;
+	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: bounce;
 }
 .fb
 {
@@ -236,11 +421,35 @@ a.mailBottom:hover
 	height: 142px;
 	background-color: #4668b3;
 	float: left;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1s;
+	transform: translateZ(0);
 }
 .fb:hover
 {
 	background-color: #3557a2;
 	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: fadeInRight, bounce;
+}
+.fbNoAnimation
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
+}
+.fbNoAnimation:hover
+{
+	background-color: #3557a2;
+	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: bounce;
 }
 .gplus
 {
@@ -249,11 +458,35 @@ a.mailBottom:hover
 	height: 142px;
 	background-color: #d95333;
 	float: left;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1s;
+	transform: translateZ(0);
 }
 .gplus:hover
 {
 	background-color: #c84222;
 	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: fadeInRight, bounce;
+}
+.gplusNoAnimation
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float: left;
+}
+.gplusNoAnimation:hover
+{
+	background-color: #c84222;
+	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: bounce;
 }
 .linkedin
 {
@@ -262,11 +495,35 @@ a.mailBottom:hover
 	height: 142px;
 	background-color: #3095d3;
 	float: left;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 1s;
+	transform: translateZ(0);
 }
 .linkedin:hover
 {
 	background-color: #2084c2;
 	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: fadeInRight, bounce;
+}
+.linkedinNoAnimation
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+.linkedinNoAnimation:hover
+{
+	background-color: #2084c2;
+	cursor: pointer;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-name: bounce;
 }
 a.socialLink
 {
@@ -284,6 +541,9 @@ a.socialLink
 	background-color: #666666;
 	text-align: justify;
 	overflow: auto;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .tileAndroid
 {
@@ -294,6 +554,9 @@ a.socialLink
 	background-color: #666666;
 	text-align: justify;
 	overflow: auto;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .javaContent
 {
