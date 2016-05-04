@@ -545,6 +545,9 @@ a.socialLink
 	text-align: justify;
 	overflow: auto;
 	float: left;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .tileJavaSmall
 {
