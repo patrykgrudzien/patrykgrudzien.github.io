@@ -67,7 +67,7 @@
 .icon-linkedin:before { content: '\e809'; font-size: 76px; margin-top: 35px;} /* '' */
 .icon-dropbox:before { content: '\e80a'; } /* '' */
 .icon-phone:before { content: '\e80b'; font-size: 20px;} /* '' */
-.icon-android:before { content: '\e80c'; font-size: 85px; margin-top: 30px; margin-left: 10px;} /* '' */
+.icon-android:before { content: '\e80c'; font-size: 80px; margin-top: 25px; margin-left: 10px;} /* '' */
 .icon-github:before { content: '\e80d'; font-size: 76px; margin-top: 35px;} /* '' */
 .icon-github-1:before { content: '\e80e'; font-size: 25px;} /* '' */
 .icon-home:before { content: '\e80f'; font-size: 76px;} /* '' */
