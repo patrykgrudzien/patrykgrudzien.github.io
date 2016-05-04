@@ -564,6 +564,21 @@ a.socialLink
 	overflow-x: hidden;
 	overflow-y: hidden; 
 }
+.tileJavaSmall2
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #666666;
+	text-align: justify;
+	animation-name: zoomIn;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-animation-delay: 0.25s;
+	overflow-x: hidden;
+	overflow-y: hidden; 
+}
 .tileAndroid
 {
 	margin: 10px;
