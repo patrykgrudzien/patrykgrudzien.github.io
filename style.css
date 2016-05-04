@@ -560,6 +560,7 @@ a.socialLink
 	animation-name: fadeInDown;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
+	-webkit-animation-delay: 0.5s;
 	overflow-x: hidden;
 	overflow-y: hidden; 
 }
