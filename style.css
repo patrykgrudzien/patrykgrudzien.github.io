@@ -557,7 +557,7 @@ a.socialLink
 	height: 142px;
 	background-color: #666666;
 	text-align: justify;
-	animation-name: fadeInDown;
+	animation-name: zoomIn;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	-webkit-animation-delay: 0.5s;
