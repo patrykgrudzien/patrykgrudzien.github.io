@@ -631,6 +631,9 @@ a.socialLink
 	height: 142px;
 	border-left: 1px inset #ffffff;
 	overflow: hidden;
+	animation-name: fadeInUp;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .androidLogo
 {
