@@ -558,6 +558,9 @@ a.socialLink
 	background-color: #666666;
 	text-align: justify;
 	overflow: auto;
+	animation-name: fadeInRight;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .tileAndroid
 {
