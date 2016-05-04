@@ -560,7 +560,7 @@ a.socialLink
 	animation-name: zoomIn;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	-webkit-animation-delay: 0.5s;
+	-webkit-animation-delay: 0.25s;
 	overflow-x: hidden;
 	overflow-y: hidden; 
 }
