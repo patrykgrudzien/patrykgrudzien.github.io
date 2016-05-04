@@ -557,10 +557,11 @@ a.socialLink
 	height: 142px;
 	background-color: #666666;
 	text-align: justify;
-	overflow: auto;
 	animation-name: fadeInDown;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
+	overflow-x: hidden;
+	overflow-y: hidden; 
 }
 .tileAndroid
 {
