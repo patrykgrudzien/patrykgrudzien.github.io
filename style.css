@@ -636,9 +636,10 @@ a.socialLink
 }
 .androidLogo
 {
+	margin-top: 5px;
 	float: left;
-	width: 105px;
-	height: 142px;
+	width: 100px;
+	height: 137px;
 	overflow: hidden;
 	border-left: 1px inset #ffffff;
 }
